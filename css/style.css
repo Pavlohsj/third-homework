@@ -82,6 +82,18 @@ body {
     background-color: var(--main-white);
 }
 
+.menu-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-nav {
+    display: flex;
+    align-items: center;
+
+}
+
 .nav-logo {
     color: var(--main-black);
     font-family: 'Raleway', sans-serif;
@@ -89,8 +101,15 @@ body {
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
+    margin-right: 92px;
+    margin-top: 24px;
+    margin-bottom: 24px;
 }
 
+.nav-list {
+    display: flex;
+    column-gap: 50px;
+}
 
 .nav-link {
     color: var(--main-black);
@@ -98,6 +117,12 @@ body {
     font-size: 14px;
     line-height: 1.43;
     letter-spacing: 0.02em;
+
+}
+
+.menu-inform-list {
+    display: flex;
+    column-gap: 50px;
 }
 
 .link-mail,
@@ -118,6 +143,7 @@ body {
     color: var(--blue-color);
 }
 
+/* MAIN */
 .btn-all,
 .btn-web,
 .btn-app,
@@ -159,6 +185,8 @@ body {
     line-height: 1.9;
     letter-spacing: 0.03em;
 }
+
+
 
 .footer {
     background-color: #2F303A;
