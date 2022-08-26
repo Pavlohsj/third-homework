@@ -149,16 +149,15 @@ body {
     padding: 94px 0;
 }
 
-.filter-container {
-    display: flex;
-    max-width: 575px;
+.main-filter {
+    width: 575px;
     margin-bottom: 50px;
 }
 
 .filter-list {
     display: flex;
+    width: calc((100%-32))/5;
     gap: 8px;
-    padding: 6px 0;
 }
 
 .filter-item {}
@@ -172,6 +171,7 @@ body {
     letter-spacing: 0.03em;
     border-radius: 4px;
     border: 0;
+    padding: 6px 24px;
 }
 
 .main-button:hover,
